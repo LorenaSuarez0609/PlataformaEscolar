@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+
 	*{
 		margin: 0;
 		padding: 0;
@@ -55,6 +55,10 @@
 		padding-bottom: 5px;
 	}
 	/*Fin de Estilos para el encabezado*/
+	/*Estilos Barra Lateral*/
+	.material-symbols-outlined{
+		font-size:  30px;
+	}
 
 	.container-menu-lateral{
 		position: absolute;
@@ -70,6 +74,7 @@
 		position: relative;
 	}
 	.cont-menu nav a{
+		font-size: 16px;
 		display: block;
 		text-decoration: none;
 		padding: 20px;
@@ -83,3 +88,11 @@
 	}
 	
 	/*Fin de Menù lateral*/
+	/*Centro de la pantalla*/
+	.contenidoPantalla{
+		padding:150px;
+		margin-left: 200px;
+	}
+	.h2{
+	font-size: 18;
+	}
